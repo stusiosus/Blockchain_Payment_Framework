@@ -1,0 +1,93 @@
+<mxfile host="app.diagrams.net" modified="2024-05-07T16:00:00Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="MlkWmJh_eTJ0xRfHqBrm" version="13.10.4" type="google">
+  <diagram name="Sequence Diagram" id="MlkWmJh_eTJ0xRfHqBrm">
+    <mxGraphModel dx="1106" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <Diagram label="Sequence Diagram">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="160" y="80" width="300" height="160" as="geometry"/>
+          </mxCell>
+          <Diagram label="Use Case 1: User zahlt Balance ein" href="#" id="10">
+            <mxCell style="shape=partialRectangle;top=0;right=0;bottom=0;left=0;" parent="MlkWmJh_eTJ0xRfHqBrm" vertex="1">
+              <mxGeometry x="10" y="10" width="500" height="300" as="geometry"/>
+            </mxCell>
+            <Sequence label="Admin erstellt Device" href="#" id="11">
+              <mxCell style="endArrow=block;html=1;rounded=0;fillColor=#0099ff;strokeColor=none;" parent="10" vertex="1">
+                <mxGeometry x="60" y="40" width="100" height="60" as="geometry"/>
+              </mxCell>
+              <Sequence label="Admin erstellt Action" href="#" id="12">
+                <mxCell style="endArrow=block;html=1;rounded=0;fillColor=#0099ff;strokeColor=none;" parent="10" vertex="1">
+                  <mxGeometry x="280" y="40" width="100" height="60" as="geometry"/>
+                </mxCell>
+              </Sequence>
+            </Sequence>
+            <Sequence label="User zahlt Balance ein" href="#" id="13">
+              <mxCell style="endArrow=block;html=1;rounded=0;fillColor=#0099ff;strokeColor=none;" parent="10" vertex="1">
+                <mxGeometry x="170" y="170" width="100" height="60" as="geometry"/>
+              </mxCell>
+            </Sequence>
+            <Sequence label="Abfrage des Guthabens" href="#" id="14">
+              <mxCell style="endArrow=block;html=1;rounded=0;fillColor=#0099ff;strokeColor=none;" parent="10" vertex="1">
+                <mxGeometry x="60" y="300" width="100" height="60" as="geometry"/>
+              </mxCell>
+              <Sequence label="Anfrage an den Contract" href="#" id="15">
+                <mxCell style="endArrow=block;html=1;rounded=0;fillColor=#0099ff;strokeColor=none;" parent="10" vertex="1">
+                  <mxGeometry x="280" y="300" width="100" height="60" as="geometry"/>
+                </mxCell>
+              </Sequence>
+            </Sequence>
+            <Sequence label="Device führt Aktion aus" href="#" id="16">
+              <mxCell style="endArrow=block;html=1;rounded=0;fillColor=#0099ff;strokeColor=none;" parent="10" vertex="1">
+                <mxGeometry x="170" y="420" width="100" height="60" as="geometry"/>
+              </mxCell>
+            </Sequence>
+            <Sequence label="Bestätigung an den Contract" href="#" id="17">
+              <mxCell style="endArrow=block;html=1;rounded=0;fillColor=#0099ff;strokeColor=none;" parent="10" vertex="1">
+                <mxGeometry x="60" y="540" width="100" height="60" as="geometry"/>
+              </mxCell>
+              <Sequence label="Guthaben abziehen" href="#" id="18">
+                <mxCell style="endArrow=block;html=1;rounded=0;fillColor=#0099ff;strokeColor=none;" parent="10" vertex="1">
+                  <mxGeometry x="280" y="540" width="100" height="60" as="geometry"/>
+                </mxCell>
+              </Sequence>
+            </Sequence>
+          </Diagram>
+          <Diagram label="Use Case 2: Device führt Aktion aus" href="#" id="20">
+            <mxCell style="shape=partialRectangle;top=0;right=0;bottom=0;left=0;" parent="MlkWmJh_eTJ0xRfHqBrm" vertex="1">
+              <mxGeometry x="540" y="10" width="500" height="300" as="geometry"/>
+            </mxCell>
+            <Sequence label="Admin erstellt Device" href="#" id="21">
+              <mxCell style="endArrow=block;html=1;rounded=0;fillColor=#0099ff;strokeColor=none;" parent="20" vertex="1">
+                <mxGeometry x="560" y="40" width="100" height="60" as="geometry"/>
+              </mxCell>
+              <Sequence label="Admin erstellt Action" href="#" id="22">
+                <mxCell style="endArrow=block;html=1;rounded=0;fillColor=#0099ff;strokeColor=none;" parent="20" vertex="1">
+                  <mxGeometry x="780" y="40" width="100" height="60" as="geometry"/>
+                </mxCell>
+              </Sequence>
+            </Sequence>
+            <Sequence label="User zahlt Balance ein" href="#" id="23">
+              <mxCell style="endArrow=block;html=1;rounded=0;fillColor=#0099ff;strokeColor=none;" parent="20" vertex="1">
+                <mxGeometry x="670" y="170" width="100" height="60" as="geometry"/>
+              </mxCell>
+            </Sequence>
+            <Sequence label="Device führt Aktion aus" href="#" id="24">
+              <mxCell style="endArrow=block;html=1;rounded=0;fillColor=#0099ff;strokeColor=none;" parent="20" vertex="1">
+                <mxGeometry x="670" y="300" width="100" height="60" as="geometry"/>
+              </mxCell>
+            </Sequence>
+            <Sequence label="Bestätigung an den Contract" href="#" id="25">
+              <mxCell style="endArrow=block;html=1;rounded=0;fillColor=#0099ff;strokeColor=none;" parent="20" vertex="1">
+                <mxGeometry x="560" y="420" width="100" height="60" as="geometry"/>
+              </mxCell>
+              <Sequence label="Guthaben abziehen" href="#" id="26">
+                <mxCell style="endArrow=block;html=1;rounded=0;fillColor=#0099ff;strokeColor=none;" parent="20" vertex="1">
+                  <mxGeometry x="780" y="420" width="100" height="60" as="geometry"/>
+                </mxCell>
+              </Sequence>
+            </Sequence>
+          </Diagram>
+        </Diagram>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
